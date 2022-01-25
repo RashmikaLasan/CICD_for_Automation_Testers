@@ -15,7 +15,7 @@ public class TestClass1 {
     @BeforeMethod
     public void launchDriver(){
 
-        System.setProperty("webdriver.chroe.driver","C:\\Users\\Lasan Rashmika\\OneDrive\\Documents\\Automation_Projects\\Selenium-Advance-Framework\\src\\test\\java\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Lasan Rashmika\\OneDrive\\Documents\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
