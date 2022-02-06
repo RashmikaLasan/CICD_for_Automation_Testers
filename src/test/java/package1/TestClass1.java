@@ -15,7 +15,7 @@ public class TestClass1 {
     @BeforeMethod
     public void launchDriver(){
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Lasan Rashmika\\OneDrive\\Documents\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+ "/src/main/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -39,7 +39,7 @@ public class TestClass1 {
     public void Test3() {
 
         driver.quit();
-        System.out.println("Lasan001 the Browser");
+        System.out.println("Lasan002 the Browser");
     }
 
 }
