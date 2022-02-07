@@ -39,7 +39,8 @@ public class TestClass1 {
     public void Test3() {
 
         driver.quit();
-        System.out.println("Lasan00100000 the Browser");
+        System.out.println("lasn022 the Browser");
+        System.out.println("lasan00020");
     }
 
 }
